@@ -1,0 +1,139 @@
+
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background:black;
+  color: white;
+  margin: 0;
+  height: 38px;
+  padding: 7px;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+}
+
+header p{
+  margin: 0;
+  padding: 0;
+}
+
+.wraper {
+  /*border: 1px dotted gray;*/
+  width: 980px;
+  margin: 0 auto 0 auto;
+}
+
+footer{
+  float: left;
+  width: 100%;
+  background:black;
+  color: white;
+  margin: 0;
+  height: 50px;
+  padding: 34px 0 0 0;
+  text-align: center;
+}
+
+header .wraper img{
+  width: 40px;
+  float: left;
+}
+
+header .wraper span{
+  display: block;
+  float: left;
+  margin: 6px 0 0 8px;
+  font-size: 22px;
+}
+
+header .wraper nav{
+  display: block;
+  float: right;
+  margin: 8px 0 0 8px;
+  font-size: 20px;
+}
+
+header .wraper nav ul{
+  margin: 0;
+}
+
+header .wraper nav ul li{
+  display: inline-block;
+  margin: 0 0 0 18px;
+}
+
+#sidebarleft {
+  float: left;
+  width: 198px;
+  padding: 15px 0;
+  margin: 25px 0;
+  border-radius: 8px;
+}
+
+main {
+  float: left;
+  width: 510px;
+  height: 700px;
+  padding: 15px;
+  margin: 25px 20px;
+}
+
+main img{
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+#sidebarright {
+  float: left;
+  width: 198px;
+  padding: 15px 0;
+  margin: 25px 0;
+  border-radius: 8px;
+}
+
+.card-app{
+  background: lightgray;
+  border-radius: 10px;
+  margin: 0 0 10px 0;
+}
+
+.card-app img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-app h3{
+  font-size: 15px;
+  margin: 5px 0px;
+  padding: 0 8px;
+}
+
+.card-app p{
+  font-size: 11px;
+  margin: 5px 0 8px 0;
+  padding: 0 8px;
+}
+
+table, th, td {
+  border: 1px solid #333333;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 10px;
+}
+
+td{
+  background: lightblue;
+}
+
+th{
+  background: rgb(8, 8, 121);
+  color: whitesmoke;
+}
